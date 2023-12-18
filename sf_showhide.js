@@ -1,6 +1,6 @@
 // Sketchfab Viewer API: Start/Stop the viewer
 var version = "1.9.0";
-var uid = "784e95f4f22545199be7e165af6437f8";
+var uid = "5238a9dfeee4455d84ffc03211aa8798";
 
 var urlParams = new URLSearchParams(window.location.search);
 var autoSpin = 0.0;
@@ -289,12 +289,13 @@ function createButton(btnType, instance, name) {
 
   if (btnType == "Hide") {
     btn.id = instance + "_" + name + "_" + btnType;
-    btn.style.backgroundColor = "green";
+    btn.style.backgroundColor = "red";
+    var btnText = document.createTextNode("Ocultar"); // Substitua "Hide" por "Ocultar"
   } else {
     btn.id = instance + "_" + name;
+    var btnText = document.createTextNode("Mostrar"); // Substitua "Show" por "Mostrar"
   }
   btn.value = instance;
-  var btnText = document.createTextNode(btnType);
   btn.appendChild(btnText);
 
   return btn;
