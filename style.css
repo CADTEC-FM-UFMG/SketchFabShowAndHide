@@ -108,7 +108,6 @@ ul,
   width: 100%;
   height: 80vh;
   max-width: 100vw;
-  min-width: 710px;
   border: 0;
   padding: 0;
   margin: 0;
@@ -140,6 +139,7 @@ ul#myUL {
 .iframe-container {
   position: relative;
   width: 100%;
+  min-width: 715px;
   flex: 1;
   display: flex;
 }
@@ -147,6 +147,7 @@ ul#myUL {
 .iframe-container > iframe {
   border: 0;
   width: 100%;
+  min-width: 715px;
   flex: 1;
 }
 
