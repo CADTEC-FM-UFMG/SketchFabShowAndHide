@@ -341,10 +341,13 @@ li {
         }
       }
   
-      @media (min-width: 768px) {
+      @media (max-width: 768px) {
         .container {
-          max-width: 720px;
+          width: 100%;
         }
+        .iframe-container {
+    width: 100%;
+  }
       }
   
       @media (min-width: 992px) {
