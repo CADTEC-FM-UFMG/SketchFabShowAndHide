@@ -346,7 +346,7 @@ li {
           max-width: 720px;
         }
         .iframe-container {
-          min-width: 720px;
+          min-width: 100%;
         }
       }
   
