@@ -343,19 +343,13 @@ li {
   
       @media (min-width: 768px) {
         .container {
-          max-width: 720px;
-        }
-        .iframe-container {
-          width: 100%;
+          min-width: 100%;
         }
       }
   
       @media (min-width: 992px) {
         .container {
           max-width: 960px;
-        }
-        .iframe-container {
-          width: 100%;
         }
       }
   
