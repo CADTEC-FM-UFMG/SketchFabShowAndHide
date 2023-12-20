@@ -1,16 +1,16 @@
-## Welcome to SKetchFabShowAndHide 
+## Bem-vindo ao SketchFabShowAndHide
 
-# Custom viewer for Sketfab utilizing the Viewer API to allow showing and hiding of the model's parts
+# Visualizador personalizado para Sketchfab utilizando a API Viewer para permitir mostrar e ocultar as partes do modelo. Código desenvolvido originalmente por: FullyCroisened
 
-Example Running Here: https://croisened.github.io/SketchFabShowAndHide/?id=784e95f4f22545199be7e165af6437f8
+Exemplo em execução aqui: https://cadtec-fm-ufmg.github.io/?id=8023c523cc224c3cbd007f55b439e254
 
 
-To use this project you only need 3 files...
+Para usar este projeto você só precisa de 3 arquivos...
 
-- index.html (This file just has the HTML scaffolding to house the Sketchfab API viewer)
-- style.css (This file contains the bootstrap based layout information)
-- sf_showhide.js (This file contains all the code to initialize the Sketchfab viewer, process all the Matrix Transforms and ultimatley generate the treeview with show and hide buttons for each object in the scene)
+- index.html (este arquivo contém apenas o andaime HTML para abrigar o visualizador da API Sketchfab)
+- style.css (este arquivo contém as informações de layout baseadas em bootstrap)
+- sf_showhide.js (Este arquivo contém todo o código para inicializar o visualizador Sketchfab, processar todas as Matrix Transforms e finalmente gerar o treeview com botões mostrar e ocultar para cada objeto na cena)
 
-In the javascript file there is an "id" variable that you can change to be any model on Sketchfab based on that model's guid you can see in the URL for any given model.  This acts as default model to load in the event there is no "id" variable set in the querystring for the HTML page so you can simply chage it there as well to view any model you choose.
+No arquivo javascript há uma variável "id" que você pode alterar para qualquer modelo no Sketchfab com base no guia desse modelo que você pode ver na URL de qualquer modelo. Isso atua como modelo padrão para carregar caso não haja uma variável "id" definida na string de consulta da página HTML, então você pode simplesmente alterá-la para visualizar qualquer modelo que escolher.
 
-Follow on Twitter @FullyCroisened
+Siga no Twitter @FullyCroisened
