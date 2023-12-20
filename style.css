@@ -343,7 +343,7 @@ li {
   
       @media (min-width: 768px) {
         .container {
-          min-width: 100%;
+          max-width: 720px;
         }
       }
   
