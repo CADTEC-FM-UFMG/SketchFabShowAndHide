@@ -345,7 +345,7 @@ li {
         .container {
           max-width: 720px;
         }
-        #api-frame {
+        .iframe-container {
           min-width: 720px;
         }
       }
