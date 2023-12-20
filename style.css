@@ -139,7 +139,6 @@ ul#myUL {
 .iframe-container {
   position: relative;
   width: 100%;
-  display: flex;
   padding-top: 75%; /* Este valor é calculado como 3 dividido por 4, então 3/4 * 100 = 75 */
   overflow: hidden;
 }
