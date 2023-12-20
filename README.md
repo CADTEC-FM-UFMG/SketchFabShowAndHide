@@ -1,6 +1,6 @@
 ## Bem-vindo ao SketchFabShowAndHide
 
-# Visualizador personalizado para Sketchfab utilizando a API Viewer para permitir mostrar e ocultar as partes do modelo. Código desenvolvido originalmente por: FullyCroisened
+## Visualizador personalizado para Sketchfab utilizando a API Viewer para permitir mostrar e ocultar as partes do modelo. Código desenvolvido originalmente por: FullyCroisened
 
 Exemplo em execução aqui: https://cadtec-fm-ufmg.github.io/?id=8023c523cc224c3cbd007f55b439e254
 
