@@ -139,16 +139,14 @@ ul#myUL {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 75%; /* Este valor é calculado como 3 dividido por 4, então 3/4 * 100 = 75 */
-  overflow: hidden;
+  flex: 1;
+  display: flex;
 }
 
 .iframe-container > iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+  border: 0;
   width: 100%;
-  height: 100%;
+  flex: 1;
 }
 
 li {
