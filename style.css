@@ -335,7 +335,7 @@ li {
         margin-left: auto;
       }
   
-      media (max-width: 576px) {
+      @media (max-width: 576px) {
   
   /* Ajustar a largura da tela do SketchFab */
   .iframe-container > iframe {
@@ -355,7 +355,7 @@ li {
   }
 }
   
-      media (max-width: 768px) {
+      @media (max-width: 768px) {
   
   /* Ajustar a largura da tela do SketchFab */
   .iframe-container > iframe {
