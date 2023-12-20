@@ -343,12 +343,12 @@ li {
   
       @media (max-width: 768px) {
         .container {
-          width: 100%;
+          width: 750px;
         }
         .iframe-container {
-    width: 100%;
-  }
-      }
+          width: 750px;
+        }
+        }
   
       @media (min-width: 992px) {
         .container {
