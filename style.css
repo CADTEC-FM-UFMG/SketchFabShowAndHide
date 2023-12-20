@@ -346,7 +346,22 @@ li {
           max-width: 720px;
         }
       }
+
+      @media (max-width: 768px) {
   
+  /* Ajustar a largura da tela do SketchFab */
+  .iframe-container {
+    width: 100%;
+  }
+
+  /* Ajustar a largura do container dos botões */
+  .controls {
+    width: 100%;
+    padding-left: 0;  /* Removendo o padding para ocupar toda a largura */
+    padding-right: 0; /* Removendo o padding para ocupar toda a largura */
+    justify-content: flex-start; /* Para que os botões fiquem alinhados à esquerda */
+  }
+}
       @media (min-width: 992px) {
         .container {
           max-width: 960px;
