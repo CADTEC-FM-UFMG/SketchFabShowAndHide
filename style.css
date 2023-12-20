@@ -335,11 +335,25 @@ li {
         margin-left: auto;
       }
   
-      @media (min-width: 576px) {
-        .container {
-          max-width: 540px;
-        }
-      }
+      media (max-width: 576px) {
+  
+  /* Ajustar a largura da tela do SketchFab */
+  .iframe-container > iframe {
+    width: 100%;
+  }
+
+  /* Ajustar a largura do container dos botões */
+  .controls {
+    width: 100%;
+    padding: 15px 0; /* Ajuste de padding para manter o espaçamento */
+    justify-content: center; /* Centralizar os botões */
+  }
+
+  .controls > * {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
   
       media (max-width: 768px) {
   
