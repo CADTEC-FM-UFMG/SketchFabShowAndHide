@@ -345,6 +345,9 @@ li {
         .container {
           max-width: 720px;
         }
+        #api-frame {
+          min-width: 720px;
+        }
       }
   
       @media (min-width: 992px) {
