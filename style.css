@@ -345,6 +345,12 @@ li {
         .container {
           max-width: 720px;
         }
+        .iframe-container {
+        position: relative;
+        min-width: 720px;
+        flex: 1;
+        display: flex;
+        }
       }
   
       @media (min-width: 992px) {
