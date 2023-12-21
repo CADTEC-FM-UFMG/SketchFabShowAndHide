@@ -189,6 +189,9 @@ function generateTree() {
   var navTree = document.getElementById("navTree");
   navTree.appendChild(to_ul(tree, "myUL"));
   navTree.style.minWidth = "720px";
+  navTree.style.order = "1";          // Define a ordem do item flex
+  navTree.style.marginTop = "auto";   // Empurra o navTree para o final do container
+
 
   var toggler = document.getElementsByClassName("caret");
   var i;
