@@ -328,6 +328,7 @@ li {
 
 .container {
         width: 100%;
+        min-width: 730px;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
