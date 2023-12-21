@@ -131,7 +131,6 @@ ul#myUL {
   display: flex;
   flex-direction: column;
   height: 100%;
-  min-width: 730px;
 }
 
 .iframe-container {
