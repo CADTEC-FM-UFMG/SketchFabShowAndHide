@@ -850,6 +850,7 @@ mark,
 }
 .img-fluid {
   max-width: 100%;
+  min-width: 730px;
   height: auto;
 }
 .img-thumbnail {
