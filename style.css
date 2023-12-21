@@ -121,6 +121,8 @@ ul#myUL {
 #navTree {
   width: 100%;
   margin-top: 20px;
+  order: 1;                 /* Define a ordem do item flex */
+  margin-top: auto;
 }
 
 * {
