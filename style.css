@@ -118,12 +118,7 @@ ul#myUL {
 }
 
 #navTree {
-  margin: 0;
   width: 100%;
-  max-width: 600px;
-  height: 80vh;
-  overflow-y: auto;
-  overflow-x: hidden;
   margin-top: 20px;
 }
 
