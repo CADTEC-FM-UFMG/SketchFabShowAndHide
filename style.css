@@ -124,6 +124,7 @@ ul#myUL {
   height: 80vh;
   overflow-y: auto;
   overflow-x: hidden;
+  margin-top: 20px;
 }
 
 * {
