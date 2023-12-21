@@ -16,6 +16,7 @@ if (urlParams.has("id")) {
 var iframe = document.getElementById("api-frame");
 var client = new window.Sketchfab(version, iframe);
 var treeText = "";
+iframe.style.width = "100%";
 
 var error = function () {
   console.error("Sketchfab API error");
