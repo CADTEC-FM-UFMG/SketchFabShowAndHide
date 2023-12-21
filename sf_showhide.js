@@ -188,6 +188,7 @@ function generateTree() {
   //Create the HTML UL elemenet of the objects
   var navTree = document.getElementById("navTree");
   navTree.appendChild(to_ul(tree, "myUL"));
+  navTree.style.minWidth = "720px";
 
   var toggler = document.getElementsByClassName("caret");
   var i;
