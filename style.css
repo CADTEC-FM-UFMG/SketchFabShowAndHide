@@ -156,6 +156,7 @@ li {
   font-size: 0.875rem;
   font-weight: 600;
   display: flow-root;
+  min-width: 730px;
 }
 
 ul.nested.active {
