@@ -346,6 +346,10 @@ li {
           max-width: 720px;
         }
       }
+@media (max-width: 768px) {
+  .iframe-container {
+    width: 100%;
+  }
   
       @media (min-width: 992px) {
         .container {
