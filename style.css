@@ -1734,6 +1734,7 @@ pre code {
 }
 .table {
   width: 100%;
+  min-width: 730px;
   margin-bottom: 1.5rem;
   color: #333;
 }
