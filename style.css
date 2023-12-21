@@ -59,7 +59,6 @@ button.disabled {
 .description iframe,
 .description img {
   max-width: 100%;
-  min-width: 730px;
   height: auto;
 }
 
