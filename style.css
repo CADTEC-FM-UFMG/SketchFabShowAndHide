@@ -5993,6 +5993,7 @@ a.close.disabled {
   align-items: center;
   justify-content: center;
   width: 15%;
+  min-width: 730px;
   color: #fff;
   text-align: center;
   opacity: 0.5;
