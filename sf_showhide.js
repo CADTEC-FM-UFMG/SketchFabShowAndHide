@@ -1,6 +1,6 @@
 // Sketchfab Viewer API: Start/Stop the viewer
 var version = "1.9.0";
-var uid = "1e79ecc2ea2b4205bcdda6f9ef7462c1";
+var uid = "784e95f4f22545199be7e165af6437f8";
 
 var urlParams = new URLSearchParams(window.location.search);
 var autoSpin = 0.0;
@@ -16,7 +16,6 @@ if (urlParams.has("id")) {
 var iframe = document.getElementById("api-frame");
 var client = new window.Sketchfab(version, iframe);
 var treeText = "";
-iframe.style.width = "100%";
 
 var error = function () {
   console.error("Sketchfab API error");
@@ -188,10 +187,6 @@ function generateTree() {
   //Create the HTML UL elemenet of the objects
   var navTree = document.getElementById("navTree");
   navTree.appendChild(to_ul(tree, "myUL"));
-  navTree.style.minWidth = "720px";
-  navTree.style.order = "1";          // Define a ordem do item flex
-  navTree.style.marginTop = "auto";   // Empurra o navTree para o final do container
-
 
   var toggler = document.getElementsByClassName("caret");
   var i;
@@ -294,13 +289,12 @@ function createButton(btnType, instance, name) {
 
   if (btnType == "Hide") {
     btn.id = instance + "_" + name + "_" + btnType;
-    btn.style.backgroundColor = "red";
-    var btnText = document.createTextNode("Ocultar"); // Substitua "Hide" por "Ocultar"
+    btn.style.backgroundColor = "green";
   } else {
     btn.id = instance + "_" + name;
-    var btnText = document.createTextNode("Mostrar"); // Substitua "Show" por "Mostrar"
   }
   btn.value = instance;
+  var btnText = document.createTextNode(btnType);
   btn.appendChild(btnText);
 
   return btn;
