@@ -123,11 +123,7 @@ ul#myUL {
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+
 
 .iframe-container {
   position: relative;
