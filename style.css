@@ -117,7 +117,14 @@ ul#myUL {
   color: black !important;
 }
 
-
+#navTree {
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 * {
   box-sizing: border-box;
@@ -136,11 +143,7 @@ ul#myUL {
   display: flex;
 }
 
-.iframe-container > iframe {
-  border: 0;
-  width: 100%;
-  flex: 1;
-}
+
 
 li {
   padding: 1rem 1rem;
