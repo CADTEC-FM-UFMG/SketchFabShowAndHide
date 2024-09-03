@@ -1,1 +1,323 @@
-test
+.controls > * {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 0 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+  line-height: 1.2;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s;
+  color: white;
+  background-color: #0d6efd;
+  height: 25px;
+  font-size: 0.875rem;
+}
+
+button.disabled {
+  cursor: default;
+  pointer-events: none;
+  color: #ccc;
+  background-color: #e7e7e7;
+  transition: background-color 0.25s ease;
+}
+
+.description {
+  box-sizing: border-box;
+  position: absolute;
+  padding: 30px;
+  top: 30px;
+  right: 30px;
+  width: 240px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border-radius: 3px;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.description.--active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.description iframe,
+.description img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+#api-frame {
+  width: 100%;
+  height: 80vh;
+  max-width: 100vw;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+ul#myUL {
+  color: black !important;
+}
+
+#navTree {
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+
+.iframe-container > iframe {
+  border: 0;
+  width: 100%;
+  flex: 1;
+}
+
+li {
+  padding: 1rem 1rem;
+  border-style: inset;
+  border-width: 0.5px;
+  border-color: #6c757d4f;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: flow-root;
+}
+
+ul.nested.active {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  background-color: #ffffffcc;
+  color: #444 !important;
+  text-transform: uppercase;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  height: 80px;
+  padding: 15px 0 0 15px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e7e7e7;
+  overflow: scroll;
+}
+
+.controls > * {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-left: 1.5rem !important;
+  font-size: 0.875rem !important;
+  float: right;
+}
+
+span.caret {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem !important;
+  color: black !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+span.caret_child {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 0.25rem !important;
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+  line-height: 1.2;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s;
+  color: white;
+  background-color: #0d6efd;
+  height: 40px;
+  width: 80px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+button.disabled {
+  cursor: default;
+  pointer-events: none;
+  color: #ccc;
+  background-color: #e7e7e7;
+  transition: background-color 0.25s ease;
+}
+
+button.Hide:hover {
+  opacity: 0.7;
+  transition: 0.25s;
+}
+
+button.Show:hover {
+  opacity: 0.7;
+  transition: 0.25s;
+}
+.description {
+  box-sizing: border-box;
+  position: absolute;
+  padding: 30px;
+  top: 30px;
+  right: 30px;
+  width: 240px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border-radius: 3px;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.description.--active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.description iframe,
+.description img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 0;
+  padding: 0;
+  background: #e7eaf1;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  vertical-align: middle;
+  color: black;
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 0;
+  content: url(https://res.cloudinary.com/unmc/image/upload/v1620748497/SVG/angle-right-solid-svg_1_ig1xa1.svg);
+  transition: transform 0.35s ease;
+  transform-origin: 0.5em 50%;
+}
+
+li.nav-item.font-weight-bold.text-shadow {
+  border: inherit;
+  font-size: inherit;
+}
+
+li.nav-item {
+  border: inherit;
+  font-size: inherit;
+}
+
+#myUL,
+li {
+  text-transform: uppercase;
+}
