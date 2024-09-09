@@ -147,7 +147,7 @@ ul#myUL {
 .iframe-container > iframe {
   border: 0;
   width: 100%;
-  
+  min-width: 100vh;
   flex: 1;
 }
 
