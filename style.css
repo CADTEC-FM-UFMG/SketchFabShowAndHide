@@ -134,7 +134,7 @@ ul#myUL {
   display: flex;
   flex-direction: column;
   height: 100%;
-  min-width: 100vh;
+  
 }
 
 .iframe-container {
@@ -148,7 +148,7 @@ ul#myUL {
 .iframe-container > iframe {
   border: 0;
   width: 100%;
-  
+  min-width: 100vh;
   flex: 1;
 }
 
