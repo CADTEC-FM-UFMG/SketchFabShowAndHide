@@ -134,12 +134,6 @@ ul#myUL {
 
 
 
-.iframe-container > iframe {
-  border: 0;
-  width: 100%;
-  flex: 1;
-}
-
 li {
   padding: 1rem 1rem;
   border-style: inset;
