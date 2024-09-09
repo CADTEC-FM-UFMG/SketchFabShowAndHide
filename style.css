@@ -132,12 +132,7 @@ ul#myUL {
   height: 100%;
 }
 
-.iframe-container {
-  position: relative;
-  width: 100%;
-  flex: 1;
-  display: flex;
-}
+
 
 .iframe-container > iframe {
   border: 0;
