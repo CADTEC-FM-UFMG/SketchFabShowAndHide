@@ -6495,7 +6495,7 @@ button.bg-dark:focus {
   content: "";
 }
 .embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
+
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
