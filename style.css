@@ -56,11 +56,7 @@ button.disabled {
   pointer-events: all;
 }
 
-.description iframe,
-.description img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* Remove default bullets */
 ul,
