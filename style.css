@@ -140,7 +140,7 @@ ul#myUL {
 .iframe-container {
   position: relative;
   width: 100%;
-  
+  min-width: 100vh;
   flex: 1;
   display: flex;
 }
@@ -277,7 +277,7 @@ button.Show:hover {
 .description iframe,
 .description img {
   max-width: 100%;
-  min-width: 100vh;
+  
   height: auto;
 }
 
