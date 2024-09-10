@@ -148,7 +148,7 @@ ul#myUL {
 .iframe-container > iframe {
   border: 0;
   width: 100%;
-  min-width: 100vh;
+  
   flex: 1;
 }
 
@@ -277,6 +277,7 @@ button.Show:hover {
 .description iframe,
 .description img {
   max-width: 100%;
+  min-width: 100vh;
   height: auto;
 }
 
@@ -371,7 +372,7 @@ li {
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 100vh;
+        
       }
 
 :root {
