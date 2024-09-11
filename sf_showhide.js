@@ -438,10 +438,10 @@ function isParent(children) {
 
         if (hiddenContainer1.style.display === "none") {
             hiddenContainer1.style.display = "block";
-            hiddenContainer1.style.Width = "100%";
+            
         } else {
             hiddenContainer1.style.display = "none";
-            hiddenContainer1.style.Width = "0%";
+            
         }
     }
     
