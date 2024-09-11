@@ -5,10 +5,223 @@
 <head>
   <link rel="stylesheet" href="style.css">
 
-  <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.9.0.js"></script>
+  <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.9.0.js">
+    
+    function toggleFocus1(el) {
+        el.style.backgroundColor = el.style.backgroundColor == "#00FF3E" ? "inherit" : "#00FF3E";
+        el.style.color = "black";
+    }
+
+    function toggleFocus2(el) {
+        el.style.backgroundColor = el.style.backgroundColor == "#419644" ? "inherit" : "#419644";
+        el.style.color = "#fff";
+    }
+    
+    function toggleFocus3(el) {
+        // Altere a imagem do botão para a versão preta
+        var buttonImage = document.getElementById("scrollToTop");
+        buttonImage.querySelector("img").src = "https://cadtec.medicina.ufmg.br/home/wp-content/uploads/2023/10/up_arrow_black.png";
+        buttonImage.style.backgroundColor = el.style.backgroundColor == "#91BBE5" ? "inherit" : "#91BBE5";
+    }
+
+    function toggleFocus4(el) {
+        // Altere a imagem do botão para a versão branca
+        var buttonImage = document.getElementById("scrollToTop");
+        buttonImage.querySelector("img").src = "https://cadtec.medicina.ufmg.br/home/wp-content/uploads/2023/10/up_arrow_white.png";
+        buttonImage.style.backgroundColor = el.style.backgroundColor == "#336699" ? "inherit" : "#336699";
+    }
+    
+    function optionA(el) {
+        el.style.transform = "translateY(4px)";
+        el.style.boxShadow = "0 5px #666";
+    }
+
+    function toggleImage1(el) {
+        el.style.opacity = "0.85";
+        el.style.transform = "scale(1.20)";
+        el.style.transition = "transform .2s"; /* Animação */
+        el.parentElement.style.overflow = "hidden"; /* Adicionar overflow: hidden */
+    }
+
+    function toggleImage2(el) {
+        el.style.opacity = "1.0";
+        el.style.transform = "scale(1.0)";
+        el.style.transition = "transform .2s"; /* Animação */
+        el.parentElement.style.overflow = "hidden"; /* Adicionar overflow: hidden */
+    }
+    
+    function toggleButtonStyle(el) {
+        var mainContainer = el.closest(".container");
+
+        if (el.classList.contains("active")) {
+            el.style.transform = "translateY(0px)";
+            el.style.boxShadow = "0 9px #495663";
+            mainContainer.style.maxWidth = "230px";            
+            mainContainer.style.float = "none";
+            el.classList.remove("active");
+        } else {
+            el.style.transform = "translateY(4px)";
+            el.style.boxShadow = "0 5px #495663";
+            mainContainer.style.maxWidth = "470px";
+            mainContainer.style.float = "none";
+            el.classList.add("active");
+        }
+    }
+    
+    function showHiddenContainer1() {
+        var hiddenContainer = document.getElementById("hiddenContainer1");
+
+        if (hiddenContainer1.style.display === "none") {
+            hiddenContainer1.style.display = "block";
+            hiddenContainer1.style.maxWidth = "230px";
+        } else {
+            hiddenContainer1.style.display = "none";
+            hiddenContainer1.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer2() {
+        var hiddenContainer = document.getElementById("hiddenContainer2");
+
+        if (hiddenContainer2.style.display === "none") {
+            hiddenContainer2.style.display = "block";
+            hiddenContainer2.style.maxWidth = "230px";
+        } else {
+            hiddenContainer2.style.display = "none";
+            hiddenContainer2.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer3() {
+        var hiddenContainer = document.getElementById("hiddenContainer3");
+
+        if (hiddenContainer3.style.display === "none") {
+            hiddenContainer3.style.display = "block";
+            hiddenContainer3.style.maxWidth = "230px";
+        } else {
+            hiddenContainer3.style.display = "none";
+            hiddenContainer3.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer4() {
+        var hiddenContainer = document.getElementById("hiddenContainer4");
+
+        if (hiddenContainer4.style.display === "none") {
+            hiddenContainer4.style.display = "block";
+            hiddenContainer4.style.maxWidth = "230px";
+        } else {
+            hiddenContainer4.style.display = "none";
+            hiddenContainer4.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer5() {
+        var hiddenContainer = document.getElementById("hiddenContainer5");
+
+        if (hiddenContainer5.style.display === "none") {
+            hiddenContainer5.style.display = "block";
+            hiddenContainer5.style.maxWidth = "230px";
+        } else {
+            hiddenContainer5.style.display = "none";
+            hiddenContainer5.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer6() {
+        var hiddenContainer = document.getElementById("hiddenContainer6");
+
+        if (hiddenContainer6.style.display === "none") {
+            hiddenContainer6.style.display = "block";
+            hiddenContainer6.style.maxWidth = "230px";
+        } else {
+            hiddenContainer6.style.display = "none";
+            hiddenContainer6.style.maxWidth = "0px";
+        }
+    }
+    
+    function showHiddenContainer7() {
+        var hiddenContainer = document.getElementById("hiddenContainer7");
+
+        if (hiddenContainer7.style.display === "none") {
+            hiddenContainer7.style.display = "block";
+            hiddenContainer7.style.maxWidth = "230px";
+        } else {
+            hiddenContainer7.style.display = "none";
+            hiddenContainer7.style.maxWidth = "0px";
+        }
+    }
+
+    function showHiddenContainer8() {
+        var hiddenContainer = document.getElementById("hiddenContainer8");
+
+        if (hiddenContainer8.style.display === "none") {
+            hiddenContainer8.style.display = "block";
+            hiddenContainer8.style.maxWidth = "230px";
+        } else {
+            hiddenContainer8.style.display = "none";
+            hiddenContainer8.style.maxWidth = "0px";
+        }
+    }
+
+    function showHiddenContainer9() {
+        var hiddenContainer = document.getElementById("hiddenContainer9");
+
+        if (hiddenContainer9.style.display === "none") {
+            hiddenContainer9.style.display = "block";
+            hiddenContainer9.style.maxWidth = "230px";
+        } else {
+            hiddenContainer9.style.display = "none";
+            hiddenContainer9.style.maxWidth = "0px";
+        }
+    }
+
+    function showHiddenContainer10() {
+        var hiddenContainer = document.getElementById("hiddenContainer10");
+
+        if (hiddenContainer10.style.display === "none") {
+            hiddenContainer10.style.display = "block";
+            hiddenContainer10.style.maxWidth = "230px";
+        } else {
+            hiddenContainer10.style.display = "none";
+            hiddenContainer10.style.maxWidth = "0px";
+        }
+    }
+    
+
+    function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "white";
+  } else {
+   document.body.style.backgroundColor = "white";
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+    // Função para rolar de volta ao topo da página
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Exibir o botão quando o usuário rolar para baixo
+        window.onscroll = function () {
+            if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+                document.getElementById("scrollToTop").style.display = "block";
+                document.getElementById("search-button-image").style.display = "block";
+            } else {
+                document.getElementById("scrollToTop").style.display = "none";
+                document.getElementById("search-button-image").style.display = "none";
+            }
+        }
+
+</script>
 </head>
 
 <body>
+  <!-- Botão "Scroll Back To Top" --><button id="scrollToTop" onclick="scrollToTop()" style="display: none; position: fixed; bottom: 20px; right: 20px; background-color: #336699; color: #fff; border: none; border-radius: 50%; cursor: pointer; padding: 10px 12px; font-size: 18px;" onmouseover="toggleFocus3(this)" onmouseout="toggleFocus4(this)"><img src="https://cadtec.medicina.ufmg.br/home/wp-content/uploads/2023/10/up_arrow_white.png" style="width: 20px; heigth: auto;" alt="buscar" border="0" /></button>
   <div class="py-5" width="100%" style="padding: 0% 5% 0% 5%; object-fit: cover; background-image: linear-gradient(#2D353D, #65778A);"
   <div class="container">
     <div class="row">
