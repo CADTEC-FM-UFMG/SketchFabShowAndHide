@@ -436,12 +436,12 @@ function isParent(children) {
     function showHiddenContainer1() {
         var hiddenContainer = document.getElementById("hiddenContainer1");
 
-        if (hiddenContainer1.style.display === "none") {
-            hiddenContainer1.style.display = "block";
-            
+        if (hiddenContainer2.style.display === "none") {
+            hiddenContainer2.style.display = "block";
+            hiddenContainer2.style.maxWidth = "230px";
         } else {
-            hiddenContainer1.style.display = "none";
-            
+            hiddenContainer2.style.display = "none";
+            hiddenContainer2.style.maxWidth = "0px";
         }
     }
     
