@@ -115,14 +115,14 @@ ul,
 }
 
 @media screen and (orientation: landscape) {
-      #api-frame-container {
+      .container-iframe {
         width: 60%;
         height: 100%;
       }
     }
 
 @media screen and (orientation: portrait) {
-      #api-frame-container {
+      .container-iframe {
         width: 100%;
         height: 60%;
       }
