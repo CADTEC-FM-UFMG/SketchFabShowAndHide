@@ -8,18 +8,13 @@
 @media screen and (orientation: portrait) {
   .container-iframe {
     width: 90%;
-    height: 60%;
+    height: 40%;
   }
-}
-
-.controls > * {
-  margin-right: 15px;
-  margin-bottom: 15px;
 }
 
 @media screen and (orientation: landscape) {
   .container-navTree {
-    width: 30%;
+    width: 40%;
     height: 90%;
   }
 }
@@ -30,6 +25,8 @@
     height: 60%;
   }
 }
+
+
 
 .controls > * {
   margin-right: 15px;
