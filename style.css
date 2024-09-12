@@ -17,6 +17,25 @@
   margin-bottom: 15px;
 }
 
+@media screen and (orientation: landscape) {
+  .container-navTree {
+    width: 30%;
+    height: 90%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .container-navTree {
+    width: 90%;
+    height: 60%;
+  }
+}
+
+.controls > * {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 button {
   display: inline-flex;
   justify-content: center;
