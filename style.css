@@ -3,6 +3,14 @@
     width: 40%;
     height: 90%;
   }
+  .container-navTree {
+    width: 50%;
+    height: 90%;
+  }
+  #api-frame {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (orientation: portrait) {
@@ -10,19 +18,13 @@
     width: 90%;
     height: 30%;
   }
-}
-
-@media screen and (orientation: landscape) {
-  .container-navTree {
-    width: 50%;
-    height: 90%;
-  }
-}
-
-@media screen and (orientation: portrait) {
   .container-navTree {
     width: 90%;
     height: 60%;
+  }
+  #api-frame {
+    width: 100%;
+    height: 100%;
   }
 }
 
