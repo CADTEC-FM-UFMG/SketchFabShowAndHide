@@ -114,19 +114,7 @@ ul,
  
 }
 
-@media screen and (orientation: landscape) {
-      .container-iframe {
-        width: 60%;
-        height: 100%;
-      }
-    }
 
-@media screen and (orientation: portrait) {
-      .container-iframe {
-        width: 100%;
-        height: 60%;
-      }
-    }
 
 
 ul#myUL {
@@ -158,6 +146,20 @@ ul#myUL {
   width: 100%;
   flex: 1;
   display: flex;
+
+  @media screen and (orientation: landscape) {
+      .iframe-container {
+        width: 60%;
+        height: 100%;
+      }
+    }
+
+@media screen and (orientation: portrait) {
+      .iframe-container {
+        width: 100%;
+        height: 60%;
+      }
+    }
 }
 
 .iframe-container > iframe {
