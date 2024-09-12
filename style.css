@@ -12,7 +12,7 @@
     height: 80vh;
   }
   #navTree {
-    height: 80vh;
+    height: 100%;
   }
 }
 
@@ -30,7 +30,7 @@
     height: 50vh;
   }
   #navTree {
-    height: 150vh;
+    height: 100%;
   }
 }
 
