@@ -106,16 +106,12 @@ ul,
 
 #api-frame {
   width: 100%;
-  higth: 100%;
-  max-width: 100%;
+  height: 80vh;
+  max-width: 100vw;
   border: 0;
   padding: 0;
   margin: 0;
- 
 }
-
-
-
 
 ul#myUL {
   color: black !important;
@@ -136,7 +132,6 @@ ul#myUL {
 
 .container {
   display: flex;
-  
   flex-direction: column;
   height: 100%;
 }
@@ -146,20 +141,6 @@ ul#myUL {
   width: 100%;
   flex: 1;
   display: flex;
-
-  @media screen and (orientation: landscape) {
-      .iframe-container {
-        width: 60%;
-        height: 100%;
-      }
-    }
-
-@media screen and (orientation: portrait) {
-      .iframe-container {
-        width: 100%;
-        height: 60%;
-      }
-    }
 }
 
 .iframe-container > iframe {
