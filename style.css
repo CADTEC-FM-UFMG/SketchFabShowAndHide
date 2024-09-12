@@ -1,4 +1,16 @@
+@media screen and (orientation: landscape) {
+  .container-iframe {
+    width: 60%;
+    height: 100%;
+  }
+}
 
+@media screen and (orientation: portrait) {
+  .container-iframe {
+    width: 100%;
+    height: 60%;
+  }
+}
 
 .controls > * {
   margin-right: 15px;
