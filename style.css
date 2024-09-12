@@ -168,6 +168,7 @@ ul#myUL {
 .iframe-container {
   position: relative;
   width: 100%;
+  height: 100%;
   flex: 1;
   display: flex;
 }
@@ -175,6 +176,7 @@ ul#myUL {
 .iframe-container > iframe {
   border: 0;
   width: 100%;
+  height: 100%;
   flex: 1;
 }
 
