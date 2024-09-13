@@ -1,6 +1,6 @@
 @media screen and (orientation: landscape) {
   .container-iframe, .container-navTree {
-    height: calc(80vh - 60px);
+    height: calc(90vh - 60px);
   }
   .container-iframe {
     width: 50%;
