@@ -23,11 +23,11 @@
 @media screen and (orientation: portrait) {
   .container-iframe {
     width: 90%;
-    height: 30vh;
+    height: 60vh;
   }
   .container-navTree {
     width: 90%;
-    height: 60vh;
+    height: 30vh;
   }
   #api-frame {
     width: 100%;
