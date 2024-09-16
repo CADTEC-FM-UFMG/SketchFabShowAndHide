@@ -20,7 +20,7 @@
   }
 
   img.img-fluid {
-    width: 40%;
+    width: 20%;
     heigth: auto;
   }
 }
@@ -46,7 +46,7 @@
   }
 
   img.img-fluid {
-    width: 80%;
+    width: 40%;
     heigth: auto;
   }
 }
