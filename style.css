@@ -7513,19 +7513,19 @@ button.bg-dark:focus {
 }
 .pt-5,
 .py-5 {
-  padding-top: 4.5rem !important;
+  padding-top: 2% !important;
 }
 .pr-5,
 .px-5 {
-  padding-right: 4.5rem !important;
+  padding-right: 2% !important;
 }
 .pb-5,
 .py-5 {
-  padding-bottom: 4.5rem !important;
+  padding-bottom: 2% !important;
 }
 .pl-5,
 .px-5 {
-  padding-left: 4.5rem !important;
+  padding-left: 2% !important;
 }
 .m-n1 {
   margin: -0.375rem !important;
