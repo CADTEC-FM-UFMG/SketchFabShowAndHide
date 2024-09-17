@@ -18,9 +18,12 @@
     width: 100%;
     
   }
-  .container-iframe #api-frame,
-  .container2-navTree #navTree {
+  .container-iframe #api-frame {
     height: 100%;
+  }
+
+  .container2-navTree #navTree {
+    height: 90%;
   }
 
   img.img-fluid {
@@ -49,9 +52,13 @@
     width: 100%;
     
   }
-  .container-iframe #api-frame,
-  .container2-navTree #navTree {
+
+  .container-iframe #api-frame {
     height: 100%;
+  }
+
+  .container2-navTree #navTree {
+    height: 90%;
   }
 
   img.img-fluid {
