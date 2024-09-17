@@ -49,12 +49,12 @@
   }
   
   #api-frame {
-    width: 40%;
+    width: 100%;
     
   }
 
   .container-iframe #api-frame {
-    height: 100%;
+    height: 40%;
   }
 
   .container2-navTree #navTree {
