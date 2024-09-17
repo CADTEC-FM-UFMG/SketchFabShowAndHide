@@ -14,12 +14,9 @@
     height: 100%;
   }
     
-  #api-frame {
-    width: 100%;
-    
-  }
   .container-iframe #api-frame {
     height: 100%;
+    width: 100%;
   }
 
   .container2-navTree #navTree {
