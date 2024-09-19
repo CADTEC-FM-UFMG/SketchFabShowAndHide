@@ -41,7 +41,8 @@
   .container-navTree {
     width: 100%;
     height: 30vh;
-    
+    margin-right: 3%;
+    margin-left: 3%;
   }
 
   .container2-navTree {
